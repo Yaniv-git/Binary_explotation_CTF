@@ -1,0 +1,3 @@
+There are multiple ways to get a password if it is hardcoded in the executable, running [strings](https://docs.microsoft.com/en-us/sysinternals/downloads/strings), [ltrace](https://man7.org/linux/man-pages/man1/ltrace.1.html) and see the call to [strcmp](https://www.programiz.com/c-programming/library-function/string.h/strcmp), reverse engineer, or just look at the source code if provided ¯\_(ツ)_/¯. 
+
+But can you login even with a wrong password?!

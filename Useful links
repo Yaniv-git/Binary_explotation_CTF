@@ -1,0 +1,69 @@
+general 
+Recognize Strings - https://www.youtube.com/watch?v=Jpaq0QkepgA
+GDB https://web.eecs.umich.edu/~sugih/pointers/summary.html
+Better GDB (use gdb-pwndbg instead, gdb with addons) https://github.com/pwndbg/pwndbg
+Ghidra https://github.com/NationalSecurityAgency/ghidra
+Assembly Registers - https://www.tutorialspoint.com/assembly_programming/assembly_registers.htm
+Hexdump - https://man7.org/linux/man-pages/man1/hexdump.1.html
+Pwntools - https://docs.pwntools.com/en/stable/
+
+Buffer-overflow (00) - https://avinetworks.com/glossary/buffer-overflow/
+Buffer-overflow (00) - https://www.youtube.com/watch?v=1S0aBV-Waeo
+
+Stack (01) - https://www.tutorialspoint.com/what-is-memory-stack-in-computer-architecture
+
+LSB vs MSB (02)
+https://www.linuxquestions.org/questions/linux-newbie-8/what-is-the-difference-between-lsb-and-msb-executables-430701/
+
+pwntools (02)
+https://docs.pwntools.com/en/stable/util/packing.html
+Bytes vs. Strings (02)
+https://github.com/Gallopsled/pwntools-tutorial/blob/master/bytes.md
+
+Program counter (03)
+https://en.wikipedia.org/wiki/Program_counter
+
+Pwntools & GDB for Buffer Overflow (04) - https://www.youtube.com/watch?v=26mEa1Ojux8
+Pwntools ROP Binary Exploitation (04) - https://www.youtube.com/watch?v=i5-cWI_HV8o
+
+rop gadget (04/64bit)
+https://en.wikipedia.org/wiki/Return-oriented_programming
+rop gadget tools (04/64bit)
+https://docs.pwntools.com/en/stable/rop/rop.html
+https://github.com/sashs/Ropper
+
+assembly pop and push commands (04/64bit)
+https://stackoverflow.com/questions/4584089/what-is-the-function-of-the-push-pop-instructions-used-on-registers-in-x86-ass
+
+suid (05) - https://en.wikipedia.org/wiki/Setuid
+
+NOP code (06)
+https://en.wikipedia.org/wiki/NOP_(code)
+
+format string (08)
+https://vickieli.dev/binary%20exploitation/format-string-vulnerabilities/
+https://codearcana.com/posts/2013/05/02/introduction-to-format-string-exploits.html
+https://axcheron.github.io/exploit-101-format-strings/
+https://docs.pwntools.com/en/stable/fmtstr.html
+
+breakrva gdb (09)
+https://reverseengineering.stackexchange.com/questions/18922/how-can-breakpoint-be-set-using-offset-in-elf-file-not-virtual-address#:~:text=command%20is%20called-,breakrva,-or%20brva%20for
+
+GOT and PLT (10)
+https://ctf101.org/binary-exploitation/what-is-the-got/
+https://systemoverlord.com/2017/03/19/got-and-plt-for-pwning.html
+https://ir0nstone.gitbook.io/notes/types/stack/aslr/plt_and_got
+Relocation Read-Only - RELRO (10)
+https://ctf101.org/binary-exploitation/relocation-read-only/
+
+Exploiting format strings (10)
+https://axcheron.github.io/exploit-101-format-strings/
+
+
+protection types 
+
+Executable stack (06) - https://security.stackexchange.com/questions/210785/how-and-why-is-executable-stack-dangerous
+ASLR (07) - https://en.wikipedia.org/wiki/Address_space_layout_randomization
+ASLR bypass (07) - https://akshit-singhal.medium.com/how-to-bypass-aslr-to-perform-buffer-overflow-attacks-2d5f6707399c
+PIE (09) - https://www.redhat.com/en/blog/position-independent-executables-pie
+Stack canary (11) - https://www.sans.org/blog/stack-canaries-gingerly-sidestepping-the-cage/
