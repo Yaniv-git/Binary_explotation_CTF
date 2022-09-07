@@ -15,6 +15,6 @@ gcc /home/share/level08/code.c -o /home/share/level08/elf -fno-stack-protector -
 gcc /home/share/level09/code.c -o /home/share/level09/elf -fno-stack-protector -m32
 
 #enable canaries
-gcc /home/share/level10/code.c -o /home/share/level10/elf -fno-stack-protector-all -no-pie -m32
-gcc /home/share/level11/code.c -o /home/share/level11/elf -fno-stack-protector-all -no-pie -m32
+gcc /home/share/level10/code.c -o /home/share/level10/elf -fstack-protector-all -no-pie -m32
+gcc /home/share/level11/code.c -o /home/share/level11/elf -fstack-protector-all -no-pie -m32
 
